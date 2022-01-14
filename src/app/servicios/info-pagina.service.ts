@@ -14,7 +14,7 @@ public info: InfoPagina = {};
 public equipo: any[] = [];
 
   constructor(private http: HttpClient) {
-    console.log('Servicio de infoPagina listo');
+    console.log('Servicio de infoPagina listo- ACERCA DE -');
 
     this.cargarInfo();
     this.cargarEquipo();
@@ -30,7 +30,7 @@ public equipo: any[] = [];
   }
 
   private cargarEquipo(){
-    this.http.get('https://practicaangular-7cab9-default-rtdb.firebaseio.com/equipo.json')
+    this.http.get('https://acerca-de-default-rtdb.firebaseio.com/equipo.json')
     .subscribe((resp: any) => {
       console.log(resp);
       this.equipo = resp;
@@ -38,3 +38,14 @@ public equipo: any[] = [];
   }
 
 }
+
+
+
+/* 
+
+
+https://practicaangular-7cab9-default-rtdb.firebaseio.com/equipo.json
+
+
+
+ */
