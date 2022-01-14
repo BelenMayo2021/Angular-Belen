@@ -10,5 +10,11 @@ export interface InfoPagina {
     instagram?: string;
     tumblr?: string;
     pagina?: string;
-
+    
+    Paginaweb?: string;
+    Sobremi?: string;
+    instagram1? : string;
 }
+
+
+
