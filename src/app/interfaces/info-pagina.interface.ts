@@ -14,6 +14,7 @@ export interface InfoPagina {
     Paginaweb?: string;
     Sobremi?: string;
     instagram1? : string;
+
 }
 
 
