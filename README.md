@@ -1,27 +1,30 @@
-# Angular
+# PROYECTO FINAL - UTN BA - Programación Web Avanzado - Alumna Mayo Claudia Belen
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+Este proyecto fue realizado como trabajo practico final en la Diplomatura en programacion web full stack de la UTN-BA.
 
-## Development server
+## Proyecto realizado utilizando HTML, CSS, JavaScript, NODE JS, TYPESCRIPT, ANGULAR Y FIREBASE.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## PARA VER EL PROYECTO WEB ONLINE
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+http://bemweb.com.ar/home
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## CODIGO
 
-## Running unit tests
+https://github.com/BelenMayo2021/Angular-Belen
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## BASE DE DATOS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+https://acerca-de-default-rtdb.firebaseio.com/equipo
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## B.D. JSON
+https://acerca-de-default-rtdb.firebaseio.com/equipo.json
+
+
+
+
+
+
