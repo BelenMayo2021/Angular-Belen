@@ -1,102 +1,107 @@
-
-
-
-        <div class="ae-container-fluid ae-container-fluid--inner rk-main">
-            <div class="ae-grid au-xs-ta-center au-mb-4">
-        
-                <div *ngFor="let persona of servicio.equipo" class="ae-grid__item item-lg-4 ae-kappa au-mb-3">
-                    <img [src]="persona.url" alt="" class="au-mb-3">
-                    <h5 class="ae-u-bolder au-mt-2">{{persona.Nombre}}</h5>
-                    <p class="ae-u-bolder au-mb-3">
-                        <a href={{persona.paginaweb}} target="_blank" style="color:rgb(97, 161, 199);">
-                        {{persona.paginaweb}}
-                        </a>
-                    </p>
-
-                    <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{persona.sobremi}} </p>
-
-                    <a target="_blank" href="https://twitter.com/{{persona.twitter}}" target="_blank" class="ae-u-bolder au-underline" style="color:rgb(97, 161, 199)">{{persona.twitter}}
-                    </a>
-
-                    <p class="ae-u-bolder au-mb-3">
-                        <a href="{{persona.instagram1}}" target="_blank" style="color:rgb(97, 161, 199)">{{persona.instagram1}}</a>
-                    </p>
-
-                    <p class="ae-u-bolder au-mb-3">
-                        <a href="{{persona.instagram1}}" target="_blank" style="color:rgb(97, 161, 199)">{{persona.instagram2}}</a>
-                    </p>
-
-                    
-                    
-                </div>
-
-
-    </div>
-
-
-
-
-
-    <div class="ae-grid au-pt-2">
-        <div class="ae-grid__item item-lg-8 item-lg--offset-2">
-            
-
-            <img src="../../../assets/img/horizontal.jpg" alt="">
-
-
-
-
-
-
-
-            <h4 class="ae-u-bolder">Enim ipsam voluptatem</h4>
-            <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta
-                sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
-        </div>
-    </div>
-
-    
-
-
-
-
-    <div class="ae-grid ae-grid--alt au-xs-ptp-1">
-        <div class="ae-grid__item--alt item-lg-4">
-            <img src="../../../assets/img/C5.jpg" alt="">
-            <h6 class="ae-u-boldest"> Lipsum ipsum cursus.</h6>
-            <p class="au-lh-3">Morbi laoreet, turpis ut mollis consectetur, ipsum ipsum cursus tortor, eu ornare dui odio sed turpis. Donec bibendum sem sed nisi aliquam accumsan. Nunc vel est velit. Proin quis interdum orci. Morbi pulvinar orci vel dui mollis convallis.</p>
-        </div>
-        <div class="ae-grid__item--alt item-lg-4">
-            <img src="../../../assets/img/C11.jpg" alt="">
-            <h6 class="ae-u-boldest">Lipsum ipsum cursus.</h6>
-            <p class="au-lh-3">Morbi laoreet, turpis ut mollis consectetur, ipsum ipsum cursus tortor, eu ornare dui odio sed turpis. Donec bibendum sem sed nisi aliquam accumsan. Nunc vel est velit. Proin quis interdum orci. Morbi pulvinar orci vel dui mollis convallis.</p>
-        </div>
-        <div class="ae-grid__item--alt item-lg-4">
-            <img src="../../../assets/img/C8.jpg" alt="">
-            <h6 class="ae-u-boldest">Lipsum ipsum cursus.</h6>
-            <p class="au-lh-3">Morbi laoreet, turpis ut mollis consectetur, ipsum ipsum cursus tortor, eu ornare dui odio sed turpis. Donec bibendum sem sed nisi aliquam accumsan. Nunc vel est velit. Proin quis interdum orci. Morbi pulvinar orci vel dui mollis convallis. </p>
-            
-        </div>
-    </div>
-
-
-    <p class="au-flex au-pt-4 group-buttons">
-        <a href="portfolio.html"
-            class="au-mt-4 arrow-button arrow-button--right arrow-button--out">VOLVER A INICIO<span
-                class="arrow-cont">
-                <svg>
-                    <use xlink:href="assets/img/symbols.svg#arrow"></use>
-                </svg>
-            </span>
+<div class="ae-container-fluid ae-container-fluid--inner rk-main">
+  <div class="ae-grid au-xs-ta-center au-mb-4">
+    <div
+      *ngFor="let persona of servicio.equipo"
+      class="ae-grid__item item-lg-4 ae-kappa au-mb-3"
+    >
+      <img [src]="persona.url" alt="" class="au-mb-3" />
+      <h5 class="ae-u-bolder au-mt-2">{{ persona.Nombre }}</h5>
+      <p class="ae-u-bolder au-mb-3">
+        <a
+          href="{{ persona.paginaweb }}"
+          target="_blank"
+          style="color: rgb(97, 161, 199)"
+        >
+          {{ persona.paginaweb }}
         </a>
-    </p>
+      </p>
 
+      <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ persona.sobremi }}</p>
 
+      <a
+        target="_blank"
+        href="https://twitter.com/{{ persona.twitter }}"
+        target="_blank"
+        class="ae-u-bolder au-underline"
+        style="color: rgb(97, 161, 199)"
+        >{{ persona.twitter }}
+      </a>
+
+      <p class="ae-u-bolder au-mb-3">
+        <a
+          href="{{ persona.instagram1 }}"
+          target="_blank"
+          style="color: rgb(97, 161, 199)"
+          >{{ persona.instagram1 }}</a
+        >
+      </p>
+
+      <p class="ae-u-bolder au-mb-3">
+        <a
+          href="{{ persona.instagram1 }}"
+          target="_blank"
+          style="color: rgb(97, 161, 199)"
+          >{{ persona.instagram2 }}</a
+        >
+      </p>
+    </div>
+  </div>
+
+  <div class="ae-grid au-pt-2">
+    <div class="ae-grid__item item-lg-8 item-lg--offset-2">
+      <img src="../../../assets/img/horizontal.jpg" alt="" />
+
+      <h4 class="ae-u-bolder">Enim ipsam voluptatem</h4>
+      <p>
+        Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+        quia voluptas sit aspernatur.
+      </p>
+    </div>
+  </div>
+
+  <div class="ae-grid ae-grid--alt au-xs-ptp-1">
+    <div class="ae-grid__item--alt item-lg-4">
+      <img src="../../../assets/img/C5.jpg" alt="" />
+      <h6 class="ae-u-boldest">Lipsum ipsum cursus.</h6>
+      <p class="au-lh-3">
+        Morbi laoreet, turpis ut mollis consectetur, ipsum ipsum cursus tortor,
+        eu ornare dui odio sed turpis. Donec bibendum sem sed nisi aliquam
+        accumsan. Nunc vel est velit. Proin quis interdum orci. Morbi pulvinar
+        orci vel dui mollis convallis.
+      </p>
+    </div>
+    <div class="ae-grid__item--alt item-lg-4">
+      <img src="../../../assets/img/C11.jpg" alt="" />
+      <h6 class="ae-u-boldest">Lipsum ipsum cursus.</h6>
+      <p class="au-lh-3">
+        Morbi laoreet, turpis ut mollis consectetur, ipsum ipsum cursus tortor,
+        eu ornare dui odio sed turpis. Donec bibendum sem sed nisi aliquam
+        accumsan. Nunc vel est velit. Proin quis interdum orci. Morbi pulvinar
+        orci vel dui mollis convallis.
+      </p>
+    </div>
+    <div class="ae-grid__item--alt item-lg-4">
+      <img src="../../../assets/img/C8.jpg" alt="" />
+      <h6 class="ae-u-boldest">Lipsum ipsum cursus.</h6>
+      <p class="au-lh-3">
+        Morbi laoreet, turpis ut mollis consectetur, ipsum ipsum cursus tortor,
+        eu ornare dui odio sed turpis. Donec bibendum sem sed nisi aliquam
+        accumsan. Nunc vel est velit. Proin quis interdum orci. Morbi pulvinar
+        orci vel dui mollis convallis.
+      </p>
+    </div>
+  </div>
+
+  <p class="au-flex au-pt-4 group-buttons">
+    <a
+      href="portfolio.html"
+      class="au-mt-4 arrow-button arrow-button--right arrow-button--out"
+      >VOLVER A INICIO<span class="arrow-cont">
+        <svg>
+          <use xlink:href="assets/img/symbols.svg#arrow"></use>
+        </svg>
+      </span>
+    </a>
+  </p>
 </div>
-
-
-
-
-
-
-
