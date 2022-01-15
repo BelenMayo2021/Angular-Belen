@@ -8,6 +8,9 @@ import { InfoPaginaService } from 'src/app/servicios/info-pagina.service';
 })
 
 
+/* './footer.component.css' */
+
+
 export class FooterComponent implements OnInit {
 
   
