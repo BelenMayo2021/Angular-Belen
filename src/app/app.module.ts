@@ -13,7 +13,6 @@ import { InicioComponent } from './compartir/inicio/inicio.component';
 import { MiporfolioComponent } from './compartir/miporfolio/miporfolio.component';
 import { MicontactoComponent } from './compartir/micontacto/micontacto.component';
 import { MiserviciosComponent } from './compartir/miservicios/miservicios.component';
-import { AcercademiComponent } from './compartir/acercademi/acercademi.component';
 
 
 @NgModule({
@@ -28,7 +27,6 @@ import { AcercademiComponent } from './compartir/acercademi/acercademi.component
     MiporfolioComponent,
     MicontactoComponent,
     MiserviciosComponent,
-    AcercademiComponent,
   ],
   imports: [
     BrowserModule,
