@@ -1,7 +1,7 @@
 # PROYECTO FINAL - UTN BA - Programación Web Avanzado 
 # Alumna Mayo Claudia Belen
 
-Este proyecto fue realizado como trabajo practico final en la Diplomatura en programacion web full stack de la UTN-BA.
+Este proyecto fue realizado como trabajo practico final en la Diplomatura de Programacion Web Fullstack de la UTN-BA.
 
 ## Proyecto realizado utilizando HTML, CSS, JavaScript, NODE JS, TYPESCRIPT, ANGULAR Y FIREBASE.
 
